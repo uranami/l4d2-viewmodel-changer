@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="safetyhook\safetyhook.cpp" />
+    <ClCompile Include="safetyhook\Zydis.c" />
+    <ClCompile Include="hooks.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="server_plguin_callbacks.h" />
+    <ClInclude Include="safetyhook\safetyhook.hpp" />
+    <ClInclude Include="safetyhook\Zydis.h" />
+    <ClInclude Include="Utils.hpp" />
+    <ClInclude Include="hooks.h" />
+    <ClInclude Include="Vector3D.hpp" />
+    <ClInclude Include="cvar.hpp" />
+    <ClInclude Include="Interfaces.h" />
+  </ItemGroup>
+</Project>
