@@ -39,7 +39,7 @@ Try changing the numbers to move the weapon left or right, up or down, or closer
 
 - Only works if you are the host of the game.
 - Make sure the game is not running while copying the plugin files.
-
+- You must launch the game with the -insecure launch option for the plugin to work!.
 ## 💬 Feedback
 
 Found a bug or have suggestions? Feel free to open an [Issue](../../issues) or start a discussion!
